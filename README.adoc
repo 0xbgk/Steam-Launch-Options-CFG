@@ -1,9 +1,15 @@
-Launch Options
+Cs:Go Launch Options
+--------------------
+
+
+--------------
+-language english -freq 144 -threads4 -novid +cl_interp 0 +rate 128000 +fps_max 300 +cl_interp_ratio 1 +cl_cmdrate 128 +cl_updaterate 128 +exec csgobgk.cfg -console
 --------------
 
-{sp}+
+Dota 2 Launch Options
+---------------------
+
 
 --------------
--language english -freq 144 -threads4 -novid +cl_interp 0 +rate 128000 +fps_max 300 
-+cl_interp_ratio 1 +cl_cmdrate 128 +cl_updaterate 128 +exec csgobgk.cfg -console
+-console +exec bgkdota.cfg -dx11 -freq 144 -threads4 -novid -lv -heapsize 1572864 -noipx -nojoy -noforcemaccel -noforcemspd
 --------------
